@@ -2,6 +2,8 @@
 <html ng-app="app">
 
 <head>
+    <meta charset="utf-8"/>
+    <meta name="Author" content="Paul James Millar"/>
     <title>Services and Factories</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 </head>
@@ -32,12 +34,22 @@
                 <input type="button" class="btn btn-default" value="Clear from Service" ng-click="clearServiceSession()"/>                    
             </div>
         </div>
+        <div class="form-group row">
+            <div class="col-sm-8 col-sm-offset-4">
+                <input type="button" class="btn btn-primary" value="Save with Factory" ng-click="setFactorySession()"/>
+                <input type="button" class="btn btn-default" value="Retrieve from Factory" ng-click="getFactorySession()"/>
+                <input type="button" class="btn btn-default" value="Clear from Factory" ng-click="clearFactorySession()"/>                    
+            </div>
+        </div>  
+        <pre>{{model | json}}</pre>      
     </div>
 
     <script src="./libs/angular/angular.js"></script>
     <script src="./app/app.js"></script>
-    <script src="./app/sessionService.js"></script>
-    <script src="./app/sessionController.js"></script>
+    <script src="./app/services/formattingFactory.js"></script>
+    <script src="./app/services/sessionService.js"></script>
+    <script src="./app/services/sessionFactory.js"></script>
+    <script src="./app/controllers/sessionController.js"></script>
 </body>
 
 </html>
