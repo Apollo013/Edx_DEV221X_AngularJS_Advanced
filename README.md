@@ -18,3 +18,10 @@ Developed with Visual Studio Code
 |CSS|
 
 ---
+
+###MODULES
+|Module Number|Description|
+|-------------|-----------|
+|01|Factories & Services|
+|02|Directives|
+|03|Bootstrap & ngAnimate|
