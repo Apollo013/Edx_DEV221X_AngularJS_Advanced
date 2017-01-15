@@ -25,3 +25,6 @@ Developed with Visual Studio Code
 |01|Factories & Services|
 |02|Directives|
 |03|Bootstrap & ngAnimate|
+|04|NodeJS, npm & ExpressJS|
+|05|Routing tools & configuring angular modules|
+|06|Testing Tools - Karma / Jasmine|
