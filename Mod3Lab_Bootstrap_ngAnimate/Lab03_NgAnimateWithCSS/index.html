@@ -5,33 +5,22 @@
     <meta name="Author" content="Paul James Millar"/>
     <title>Angular Bootstrap and Animation</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">    
-    <style>
-        .full button span {
-            background-color: limegreen;
-            border-radius: 32px;
-            color: black;
-        }
-        .partially button span {
-            background-color: orange;
-            border-radius: 32px;
-            color: black;
-        }
-    </style>
 </head>
 
 <body ng-controller="labController">
     <div class="container">
         <h1>Angular Bootstrap and Animation</h1>
-        <pre>Selected date is: <em>{{dt | date:'fullDate' }}</em></pre>
-        <h4>Inline</h4>
-        <div style="display:inline-block; min-height:290px;">
-            <div uib-datepicker ng-model="dt" class="well well-sm" datepicker-options="options"></div>
+        <div class="form-group">
+            <button type="button" uib-tooltip="Click this button to do something amazing." class="btn btn-primary">Hover to show Tooltip</button>
         </div>
-        <hr />
-        <button type="button" class="btn btn-sm btn-info" ng-click="today()">Today</button>
-        <button type="button" class="btn btn-sm btn-default" ng-click="setDate(2009, 7, 24)">2009-08-24</button>
-        <button type="button" class="btn btn-sm btn-danger" ng-click="clear()">Clear</button>
-        <button type="button" class="btn btn-sm btn-default" ng-click="toggleMin()" uib-tooltip="After today restriction">Min date</button>
+        <div class="form-group">
+            <button uib-popover="Popover content goes here" popover-title="Popover Title" type="button" class="btn btn-default">Click to show Popover</button>
+        </div>
+        <div class="form-group">
+            <button type="button" class="btn btn-warning" ng-click="addWarning()">Add Warning</button>
+            <button type="button" class="btn btn-danger" ng-click="addDanger()">Add Danger</button>
+        </div>
+        <div uib-alert ng-repeat="alert in alerts" type="{{alert.type}}" class="alert-animation"  close="dismissAlert($index)" >{{alert.text}}</div>
     </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>    
     <script src="./libs/angular/angular.js"></script>

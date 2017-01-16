@@ -1,0 +1,23 @@
+.animateFadediv.ng-enter{
+    transition: 0.5s linear opacity;
+    opacity:0;
+}
+.animateFadediv.ng-enter.ng-enter-active{
+    opacity:1;
+}
+.animateFadediv.ng-leave{
+    transition: 0.5s linear opacity;
+    opacity:1;
+}
+.animateFadediv.ng-leave.ng-leave-active{
+    opacity:0;
+}
+
+.animateDiv{
+    opacity: 1;
+}
+
+.animateDiv.ng-hide{
+    transition: 0.5s linear opacity;
+    opacity: 0;
+}
