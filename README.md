@@ -16,6 +16,9 @@ Developed with Visual Studio Code
 |AngularJS|
 |HTML|
 |CSS|
+|Node.JS|
+|Express.JS|
+|Npm|
 
 ---
 
