@@ -4,7 +4,7 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "test": "test"
+    "test": "no test"
   },
   "author": "Paul James Millar",
   "license": "ISC",
