@@ -8,7 +8,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.use(express.static(path.join(__dirname, 'app')));
 app.use(express.static(path.join(__dirname, 'node_modules/bootstrap/dist')));
 app.use(express.static(path.join(__dirname, 'node_modules/jquery/dist')));
-app.use(express.static(path.join(__dirname, 'node_modules/angular')));
+app.use('/angular',express.static(path.join(__dirname, 'node_modules/angular')));
 
 app.get('*', function(req, res) {
     res.sendFile('/public/index.html'); // load the single view file (angular will handle the page changes on the front-end)
