@@ -8,19 +8,19 @@ angular.module('app').controller('labController', [ '$scope',
         afterTomorrow.setDate(tomorrow.getDate() + 1);
 
         $scope.today = function() {
-            $scope.dt = new Date();
+            $scope.currentDate = new Date();
         };
 
         $scope.today();
 
         $scope.clear = function() {
-            $scope.dt = null;
+            $scope.currentDate = null;
         };
 
         $scope.options = {
             customClass: getDayClass,
             minDate: new Date(),
-            showWeeks: true
+            showWeeks: false
         };
 
         // Disable weekend selection
@@ -37,7 +37,7 @@ angular.module('app').controller('labController', [ '$scope',
         $scope.toggleMin();
 
         $scope.setDate = function(year, month, day) {
-            $scope.dt = new Date(year, month, day);
+            $scope.currentDate = new Date(year, month, day);
         };
 
         $scope.events = [
