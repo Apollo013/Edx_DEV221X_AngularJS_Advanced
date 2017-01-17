@@ -19,6 +19,8 @@ Developed with Visual Studio Code
 |Node.JS|
 |Express.JS|
 |Npm|
+|Protractor|
+|Selenium|
 
 ---
 
@@ -30,4 +32,4 @@ Developed with Visual Studio Code
 |03|Bootstrap & ngAnimate|
 |04|NodeJS, npm & ExpressJS|
 |05|Routing tools & configuring angular modules|
-|06|Testing Tools - Karma / Jasmine|
+|06|Testing Tools - Karma / Jasmine / Protractor / Selenium|
