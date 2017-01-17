@@ -16,12 +16,14 @@ Developed with Visual Studio Code
 |AngularJS|
 |HTML|
 |CSS|
-|PhantomJS|
 |Node.JS|
 |Express.JS|
 |Npm|
+|Karma|
+|Jasmine|
 |Protractor|
 |ngMock|
+|PhantomJS|
 
 ---
 

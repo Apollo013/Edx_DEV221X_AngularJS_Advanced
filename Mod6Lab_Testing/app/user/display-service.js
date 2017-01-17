@@ -2,8 +2,7 @@
 
 angular.module('app').factory('userService', ['$http', '$q', 
     function($http, $q){
-
-        var getUsers = function(){
+        function getUsers(){
             var deferred = $q.defer();
             $http.get('http://reqres.in/api/users').then(
                 function(result){
