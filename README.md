@@ -2,7 +2,7 @@
 
 ---
 
-AngularJS advanced framework Techniques on [edx](https://www.edx.org/course/angularjs-advanced-framework-techniques-microsoft-dev221x)
+[AngularJS advanced framework Techniques on edx](https://www.edx.org/course/angularjs-advanced-framework-techniques-microsoft-dev221x)
 
 Developed with Visual Studio Code
 
