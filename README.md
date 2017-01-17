@@ -21,7 +21,6 @@ Developed with Visual Studio Code
 |Express.JS|
 |Npm|
 |Protractor|
-|Selenium|
 |ngMock|
 
 ---
@@ -34,4 +33,4 @@ Developed with Visual Studio Code
 |03|Bootstrap & ngAnimate|
 |04|NodeJS, npm & ExpressJS|
 |05|Routing tools & configuring angular modules|
-|06|Testing Tools - Karma / Jasmine / Protractor / Selenium|
+|06|Testing Tools - Karma / Jasmine / Protractor / ngMock|
