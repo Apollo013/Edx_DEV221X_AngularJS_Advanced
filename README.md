@@ -21,6 +21,7 @@ Developed with Visual Studio Code
 |Npm|
 |Protractor|
 |Selenium|
+|ngMock|
 
 ---
 
