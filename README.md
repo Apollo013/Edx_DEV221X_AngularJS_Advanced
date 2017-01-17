@@ -36,3 +36,11 @@ Developed with Visual Studio Code
 |04|NodeJS, npm & ExpressJS|
 |05|Routing tools & configuring angular modules|
 |06|Testing Tools - Karma / Jasmine / Protractor / ngMock|
+
+---
+
+![Score](https://github.com/Apollo013/Edx_DEV221X_AngularJS_Advanced/blob/master/score.png "Score")
+
+---
+
+![Work Top](https://github.com/Apollo013/Edx_DEV221X_AngularJS_Advanced/blob/master/screen-shot.png?raw=true "Screen shot")
