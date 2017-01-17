@@ -5,8 +5,7 @@
   "main": "server.js",
   "scripts": {
     "start": "echo Hello",
-    "test": "karma start .\\tests\\config\\karma.conf.js",
-    "tst": "protractor .\\tests\\config\\protractor.conf.js"
+    "test": "karma start .\\tests\\config\\karma.conf.js"
   },
   "author": "Paul James Millar",
   "license": "ISC",
@@ -20,6 +19,7 @@
     "karma-chrome-launcher": "^2.0.0",
     "karma-jasmine": "^1.1.0",
     "karma-junit-reporter": "^1.2.0",
+    "karma-ng-html2js-preprocessor": "^1.0.0",
     "karma-phantomjs-launcher": "^1.0.2"
   }
 }

@@ -17,7 +17,8 @@ module.exports = function(config) {
     files: [
       {pattern: 'node_modules/angular/angular.min.js', watched: false},
       {pattern: 'node_modules/angular-mocks/angular-mocks.js', watched: false},
-      'app/**/*.js',      
+      'app/**/*.js',
+      'app/**/*template.html',
       'tests/specs/**/*-spec.js'
     ],
 
@@ -31,8 +32,12 @@ module.exports = function(config) {
     // preprocess matching files before serving them to the browser
     // available preprocessors: https://npmjs.org/browse/keyword/karma-preprocessor
     preprocessors: {
+      'app/**/*template.html': ['ng-html2js']
     },
 
+    ngHtml2JsPreprocessor: {
+        moduleName: 'compiled-templates'
+    },
 
     // test results reporter to use
     // possible values: 'dots', 'progress'
