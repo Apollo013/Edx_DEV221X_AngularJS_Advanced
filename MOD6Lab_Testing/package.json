@@ -4,7 +4,9 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "test": "karma start .\\tests\\config\\karma.conf.js"
+    "start": "echo Hello",
+    "test": "karma start .\\tests\\config\\karma.conf.js",
+    "tst": "protractor .\\tests\\config\\protractor.conf.js"
   },
   "author": "Paul James Millar",
   "license": "ISC",
@@ -12,8 +14,10 @@
     "angular": "^1.6.1",
     "angular-mocks": "^1.6.1",
     "angular-route": "^1.6.1",
+    "express": "^4.14.0",
     "jasmine-core": "^2.5.2",
     "karma": "^1.4.0",
+    "karma-chrome-launcher": "^2.0.0",
     "karma-jasmine": "^1.1.0",
     "karma-phantomjs-launcher": "^1.0.2"
   }
