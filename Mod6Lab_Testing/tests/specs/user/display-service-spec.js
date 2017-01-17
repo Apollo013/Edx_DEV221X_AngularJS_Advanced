@@ -35,7 +35,7 @@ describe('User Service Tests', function(){
             {"id":3,"first_name":"oscar","last_name":"bluth","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/olegpogodaev/128.jpg"}]};
 
         // mock response from server
-        $httpBackend.when('GET', 'http://reqres.in/api/users').respond(200, {data: mockData});
+        $httpBackend.when('GET', 'https://reqres.in/api/users').respond(200, {data: mockData});
 
         // call method
         var resolvedValue;
